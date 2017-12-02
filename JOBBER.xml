@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Admin>
+    
+    <LoginPortal>
+        <Students>
+            <Email> kapil.ghuman007@gmailcom </Email>
+            <Password> Work Hard </Password>
+            <DOB> 07-09-1996 </DOB>
+        </Students>
+    </LoginPortal>
+    
+
+    <RegisterPortal>
+        <NewStudent>
+            <Email> kapil.ghuman007@gmail.com </Email>
+            <Password> WorkHard </Password>
+            <FirstName> Kapil </FirstName>
+            <LastName> Ghuman </LastName>
+            <ContactNo> 9988776655 </ContactNo>
+            <Address> Dehradun , Uttrakhand </Address>
+            <Gender> Male </Gender>
+            <Hobbies> Cricket </Hobbies>
+            <DOB> 07-09-1996 </DOB>
+            <Country> India </Country>
+            <UploadResume> resume.docx </UploadResume>
+        </NewStudent>
+    </RegisterPortal>
+    
+    
+    <Trainings> JAVA </Trainings>
+    
+    
+    <Internship>
+        <Type>FULL TIME</Type>
+        <Area> .NET </Area>
+        <Location> DELHI</Location>
+        <TimePeriod> 2 MONTHS </TimePeriod>
+        <FirstName> Kapil </FirstName>
+        <LastName> Ghuman </LastName>
+        <Email> kapil.ghuman007@gmail.com </Email>
+        <Contact> 9988776655 </Contact>
+        <Address> Dehradun , Uttrakhand </Address>
+        <Gender> Male </Gender>
+        <DOB> 07-09-1996 </DOB>
+        <Country> India </Country>
+        <Resume> resume.docx </Resume>
+    </Internship>
+    
+    <Internship>
+        <Type> WORK FROM HOME </Type>
+        <Area> JAVA </Area>
+        <Location> DELHI</Location>
+        <TimePeriod> 6 MONTHS </TimePeriod>
+        <FirstName> MUDIT </FirstName>
+        <LastName> MEHTA </LastName>
+        <Email> muditbudy001@gmail.com </Email>
+        <Contact> 9988776454 </Contact>
+        <Address> Dehradun , Uttrakhand </Address>
+        <Gender> Male </Gender>
+        <DOB> 18-04-1997 </DOB>
+        <Country> India </Country>
+        <Resume> resumee.docx </Resume>
+    </Internship>
+    
+    
+    <Placement>
+        <Location> DELHI </Location>
+        <Skill> JAVA </Skill>
+        <Company> DELL </Company>
+        <Name> Kapil Ghuman </Name>
+        <Email> kapil.ghuman007@gmail.com </Email>
+    </Placement>
+    
+    <JobSearch>
+        SOFTWARE ENGINEER
+        Eligibility:B.E(IT,CSC,ECE),MS
+        INFO Solutions,Bangalore.
+        info@gmail.com
+    </JobSearch>
+    
+    
+    <ContactUs>
+    Mr. Mudit Mehta
+	INFO Solutions,Bangalore.
+	info@gmail.com
+    </ContactUs>
+
+</Admin>

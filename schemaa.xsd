@@ -1,0 +1,79 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Admin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LoginPortal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Students">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Email"/>
+                    <xs:element type="xs:string" name="Password"/>
+                    <xs:element type="xs:string" name="DOB"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RegisterPortal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NewStudent">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Email"/>
+                    <xs:element type="xs:string" name="Password"/>
+                    <xs:element type="xs:string" name="FirstName"/>
+                    <xs:element type="xs:string" name="LastName"/>
+                    <xs:element type="xs:float" name="ContactNo"/>
+                    <xs:element type="xs:string" name="Address"/>
+                    <xs:element type="xs:string" name="Gender"/>
+                    <xs:element type="xs:string" name="Hobbies"/>
+                    <xs:element type="xs:string" name="DOB"/>
+                    <xs:element type="xs:string" name="Country"/>
+                    <xs:element type="xs:string" name="UploadResume"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="Trainings"/>
+        <xs:element name="Internship" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Type"/>
+              <xs:element type="xs:string" name="Area"/>
+              <xs:element type="xs:string" name="Location"/>
+              <xs:element type="xs:string" name="TimePeriod"/>
+              <xs:element type="xs:string" name="FirstName"/>
+              <xs:element type="xs:string" name="LastName"/>
+              <xs:element type="xs:string" name="Email"/>
+              <xs:element type="xs:float" name="Contact"/>
+              <xs:element type="xs:string" name="Address"/>
+              <xs:element type="xs:string" name="Gender"/>
+              <xs:element type="xs:string" name="DOB"/>
+              <xs:element type="xs:string" name="Country"/>
+              <xs:element type="xs:string" name="Resume"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Placement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Location"/>
+              <xs:element type="xs:string" name="Skill"/>
+              <xs:element type="xs:string" name="Company"/>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:string" name="Email"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="JobSearch"/>
+        <xs:element type="xs:string" name="ContactUs"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

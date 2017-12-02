@@ -1,0 +1,58 @@
+<!ELEMENT JOB (Admin)>
+<!ELEMENT Admin (LoginPortal , RegisterPortal , Trainings ,Internship+ , Placement+ , JobSearch , ContactUs)>
+
+<!ELEMENT LoginPortal(Students)>
+<!ELEMENT Students(Email , Password , DOB)>
+<!ELEMENT Email(#PCDATA)>
+<!ELEMENT Password(#PCDATA)>
+<!ELEMENT DOB(#PCDATA)>
+
+<!ELEMENT RegisterPortal(NewStudent)>
+<!ELEMENT NewStudent(Email , Password , FirstName , LastName , ContactNo , Address , Gender , Hobbies , DOB , COUNTRY , UPLOADRESUME)
+<!ELEMENT Email(#PCDATA)>
+<!ELEMENT Password(#PCDATA)>
+<!ELEMENT FirstName(#PCDATA)>
+<!ELEMENT LastName(#PCDATA)>
+<!ELEMENT ContactNo(#PCDATA)>
+<!ELEMENT Address(#PCDATA)>
+<!ELEMENT Gender(#PCDATA)>
+<!ELEMENT DOB(#PCDATA)>
+<!ELEMENT COUNTRY(#PCDATA)>
+<!ELEMENT UPLOADRESUME(#PCDATA)>
+
+
+<!ELEMENT Trainings(#PCDATA)>
+
+
+<!ELEMENT Internship(Type , Area , Location , TimePeriod , FirstName , LastName , Email , ContactNo , Address , Gender , DOB , COUNTRY , UPLOADRESUME)>
+<!ELEMENT Type(#PCDATA)>
+<!ELEMENT Area(#PCDATA)>
+<!ELEMENT Location(#PCDATA)>
+<!ELEMENT TimePeriod(#PCDATA)>
+<!ELEMENT FirstName(#PCDATA)>
+<!ELEMENT LastName(#PCDATA)>
+<!ELEMENT Email(#PCDATA)>
+<!ELEMENT ContactNo(#PCDATA)>
+<!ELEMENT Address(#PCDATA)>
+<!ELEMENT Gender(#PCDATA)>
+<!ELEMENT DOB(#PCDATA)>
+<!ELEMENT COUNTRY(#PCDATA)>
+<!ELEMENT UPLOADRESUME(#PCDATA)>
+
+<!ELEMENT Placement( Location , Skill , Company , Name , Email )>
+<!ELEMENT Location(#PCDATA)>
+<!ELEMENT Skill(#PCDATA)>
+<!ELEMENT Company(#PCDATA)>
+<!ELEMENT Name(#PCDATA)>
+<!ELEMENT Email(#PCDATA)>
+
+
+<!ELEMENT JobSearch(#PCDATA)>
+<!ELEMENT ContactUs(#PCDATA)>
+
+
+
+
+
+
+
